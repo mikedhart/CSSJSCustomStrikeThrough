@@ -1,0 +1,14 @@
+span.mikedhart-strikethrough {
+	display: block;
+	width: auto;
+	position: relative;
+}
+
+.strikethrough {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+span.mikedhart-strikethrough-wrap {
+	display: block;
+}

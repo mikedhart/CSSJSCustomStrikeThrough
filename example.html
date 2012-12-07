@@ -1,0 +1,21 @@
+<html>
+<head>
+	<title>CSSJS Custom Strikethrough Example</title>
+
+	<link rel="stylesheet" type="text/css" href="strikethrough.css">
+</head>
+<body>
+	<h1 style="width: 190px; height: 40px;" class="strikethrough">Hello, World!</h1>
+</body>
+
+<script type="text/javascript" src="zepto.js"></script>
+<script type="text/javascript" src="strikethrough.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function () {
+		strikethrough = new Mikedhart.Strikethrough();
+		strikethrough.init(5, "#fff");
+	});
+</script>
+
+</html>
